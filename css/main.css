@@ -1,0 +1,332 @@
+
+/* GLOBAL STYLES */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans&family=Poppins:wght@400;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&family=Montserrat:wght@500&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #e5e5e5;
+    color: #000000;
+    font-size: 1.3rem;
+    font-family: "Open Sans";
+    line-height: 2;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ html {
+     scroll-behavior: smooth;
+ }
+
+ img {
+     display: block;
+     max-width: 100%;
+ }
+
+
+ .container {
+     display: flex;
+     justify-content: space-between;
+     
+     margin: 30px 100px;
+ }
+
+ 
+
+ #nav-items {
+     display: flex;
+     list-style: none;
+     margin-top: 15px;
+      
+     
+ }
+
+ ul .nav-item {
+     color: #fff;
+      
+     margin-right: 35px;
+ }
+
+ ul li a {
+     
+     color: #000000;
+ }
+ .logo {
+     color: #ec750b;
+     font-family: "Open Sans";
+ }
+
+ #branding {
+     cursor: pointer;
+ }
+
+ .cto {
+     width: 40%;
+ }
+
+ .cto p {
+     font-size: 1rem;
+ }
+
+ .fundamentals {
+     color: #060894;
+     width: 300px;
+     margin-bottom: 10px;
+      
+ }
+
+ .academic {
+     margin: 10px 40px;
+ }
+
+ .academic-img {
+     /* display: inline-block; */
+     margin-left: -43px;
+     position: relative;
+     margin-bottom: 250px;
+     z-index: 1;
+     margin-top: -174px; 
+      
+     
+ }
+
+ #academic_img_container {
+     width: 375px;
+     height: 233px;
+     position: absolute;
+     background: #000000;
+     border-radius: 40px;
+     margin-bottom: 150px;
+     margin-left: 800px;
+     margin-top: 190px;
+ }
+
+
+.academic_button {
+    background: #ec750b;
+    height: 50px;
+    position: absolute;
+    border-radius: 10px;
+    width: 196px;
+    font-size: 20px ;
+    border-color: #ec750b;
+    letter-spacing: 0.1em;
+    
+}
+
+.our_numbers {
+    margin: 200px 125px;
+
+}
+
+.our_numbers h3 {
+    color: #060894;
+    font-weight: bold;
+    margin-bottom: -15px;
+    font-size: 48px;
+}
+
+.our_numbers p {
+    font-family: Arial;
+    width:  200px;
+    line-height: 1;
+    font-size: 16px;
+}
+
+.our_numbers .tell_more {
+    font-size: 24px;
+     font-weight: bold;
+     font-family: Arial;
+     margin: 10px 0 0 15px;
+}
+
+
+.student_journey {
+    background: #ec750b;
+    position: relative;
+    height: 287px;
+    width: 730px;
+    font-family: Arial;
+    font-size: 40px;
+    line-height: 46px;
+    padding: 50px;
+    border-radius: 20px;
+    margin-right: 40px;
+     
+}
+
+.student_journey p {
+    width: 305px;
+    color: #fff;
+}
+
+.learn_more {
+    cursor: pointer;
+   
+     
+}
+
+.learn_more p {
+    margin: 0 70px;
+    font-family: Arial;
+}
+
+
+/* Sign Up page */
+
+.sign_up_header { 
+    text-align: center;
+    width: 50%;
+    line-height: 2;
+}
+
+.sign_up_header img {
+    margin: 200px 0 0;
+    display: inline;
+}
+
+.sign_up_header span {
+    color: #ec750b;
+    font-size: 20px;
+    margin: 40px 20px;
+}
+
+.sign_up_header h5 {
+    margin: 20px 0 10px 0;
+    font-family: "Montserrat Alternates";
+}
+    
+
+
+
+
+.sign_up {
+    box-shadow: 1px 2px 3px grey;
+    
+    padding: 20px;
+    border-radius: 10px;
+
+    font-size: 16px;
+
+    ;
+    /* outline: ; */
+}
+
+
+.sign_up fieldset {
+    
+}
+
+/* .sign_up_container {
+    background: #ffffff;
+} */
+
+input{
+    border-style: hidden;
+}
+
+.sign_up_form {
+    
+    
+}
+
+legend{
+    margin: 10px ;
+}
+fieldset {
+     margin: 0 0 35px 0;
+}
+
+input {
+    padding:  10px;
+    border-radius: 5px;
+    width: 400px;
+    margin: 10px;
+    ;
+}
+
+.date {
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+}
+
+.date input {
+    width: 100px;
+    margin: 0 10px 5px;
+}
+
+.date fieldset {
+    margin: 0 10px 25px 10px;
+}
+
+.sign_up button {
+    width: 100%;
+    padding: 10px;
+     background-color: #fff;
+     border-radius: 5px;
+     margin-bottom: 15px;
+     cursor: pointer;
+     border-style: none;
+     /* border-bottom-style: groove; */
+     box-shadow: 5px 2px 4px grey ;
+     
+}
+.sign_up i {
+    margin: 0 10px;
+    color:red;
+   
+}
+
+.sign_up a {
+    color: #060894;
+    font-weight: bold; 
+}
+
+.sign_up p {
+    text-align: center;
+}
+
+.checkbox_container {
+     display: flex;
+
+    /* grid-template-columns: 1fr 2fr; */
+}
+
+.checkbox_container input {
+    margin-left: -193px;
+}
+.checkbox_container label {
+    margin-right: 0px;
+}
+
+.checkbox_container div {
+    width: 0;
+}
+
+.checkbox_container #label {
+    width: 300px;
+    margin: 0 30px;
+}
+
+input[type=submit] {
+    width: 97%;
+    background-color: #060894;
+    color: #fff;
+}
+
+/* Login */
+
