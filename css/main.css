@@ -44,8 +44,6 @@ a {
      margin: 30px 100px;
  }
 
- 
-
  #nav-items {
      display: flex;
      list-style: none;
@@ -186,6 +184,27 @@ a {
 
 
 /* Sign Up page */
+
+.line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+hr {
+    width: 150px;
+    display: block;
+}
+
+.or {
+    color: #252525;
+    font-size: 15px;
+    padding: 0 10px;
+    font-weight: bold;
+}
+
 
 .sign_up_header { 
     text-align: center;
