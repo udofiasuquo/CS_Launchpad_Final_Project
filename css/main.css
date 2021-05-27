@@ -173,8 +173,6 @@ a {
 
 .learn_more {
     cursor: pointer;
-   
-     
 }
 
 .learn_more p {
@@ -190,7 +188,6 @@ a {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-
 }
 
 hr {
@@ -228,43 +225,21 @@ hr {
     font-family: "Montserrat Alternates";
 }
     
-
-
-
-
 .sign_up {
     box-shadow: 1px 2px 3px grey;
-    
     padding: 20px;
     border-radius: 10px;
-
     font-size: 16px;
-
-    ;
-    /* outline: ; */
 }
-
-
-.sign_up fieldset {
-    
-}
-
-/* .sign_up_container {
-    background: #ffffff;
-} */
 
 input{
     border-style: hidden;
 }
 
-.sign_up_form {
-    
-    
+legend{
+    margin: 10px;
 }
 
-legend{
-    margin: 10px ;
-}
 fieldset {
      margin: 0 0 35px 0;
 }
@@ -274,7 +249,6 @@ input {
     border-radius: 5px;
     width: 400px;
     margin: 10px;
-    ;
 }
 
 .date {
@@ -300,14 +274,12 @@ input {
      margin-bottom: 15px;
      cursor: pointer;
      border-style: none;
-     /* border-bottom-style: groove; */
-     box-shadow: 5px 2px 4px grey ;
-     
+     box-shadow: 5px 2px 4px grey;
 }
+
 .sign_up i {
     margin: 0 10px;
     color:red;
-   
 }
 
 .sign_up a {
@@ -321,13 +293,12 @@ input {
 
 .checkbox_container {
      display: flex;
-
-    /* grid-template-columns: 1fr 2fr; */
 }
 
 .checkbox_container input {
     margin-left: -193px;
 }
+
 .checkbox_container label {
     margin-right: 0px;
 }
@@ -345,6 +316,14 @@ input[type=submit] {
     width: 97%;
     background-color: #060894;
     color: #fff;
+}
+
+@media (max-width: 600px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
 }
 
 /* Login */
